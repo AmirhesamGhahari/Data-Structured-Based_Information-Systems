@@ -1,0 +1,27 @@
+
+public class Student{
+	
+	private static int idMaker = 100;
+	
+	private String nameString;
+	private double average;
+	private int id;
+	
+	
+	public Student(String n, double av) {
+		this.nameString = n;
+		this.average = av;
+		this.id = Student.idMaker;
+		id++;
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
